@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import { loginSuccess, loginFailure } from '../../actions/authActions2';
+import './style.css';
 
 const Login = ({ isAuthenticated, loginSuccess, loginFailure }) => {
 
@@ -18,7 +19,7 @@ const Login = ({ isAuthenticated, loginSuccess, loginFailure }) => {
   
     return (
       <div>
-        <h2>Login</h2>
+        <h1>Login</h1>
         <button onClick={handleLogin}>Iniciar sesión</button>
         <p>{isAuthenticated ? '¡Inicio de sesión exitoso!' : 'Inicio de sesión fallido'}</p>
       </div>

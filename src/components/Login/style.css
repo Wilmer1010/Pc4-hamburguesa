@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(207 207 207);
+}
+h1 {
+    padding: 20px;
+    font-size: 57px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    text-align: center;
+}
+button {
+    margin-top: 29vh;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 38px;
+    border-radius: 11px;
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    background: cadetblue;
+}
+p {
+    text-align: center;
+    margin-top: 12px;
+    color: #8d2121d6;
+    font-family: system-ui;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
