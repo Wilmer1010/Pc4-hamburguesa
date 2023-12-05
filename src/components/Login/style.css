@@ -8,17 +8,22 @@ html, body {
     padding: 0;
 }
 body {
-    background: rgb(207 207 207);
+    background: url(https://img.freepik.com/foto-gratis/hamburguesa-carne-vista-frontal-ensalada-queso-tomates-fondo-oscuro_140725-89525.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1699660800&semt=ais) center/cover no-repeat;
+    width: 100%;
+    height: 100%;
 }
 h1 {
-    padding: 20px;
-    font-size: 57px;
+    padding: 0px;
+    font-size: 16vh;
     font-weight: 900;
-    letter-spacing: 5px;
+    letter-spacing: 20px;
     text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 17px 20px black;
+    color: #ff8303;
 }
-button {
-    margin-top: 29vh;
+.ingresar {
+    margin-top: 62vh;
     text-align: center;
     display: block;
     margin-left: auto;
@@ -26,15 +31,7 @@ button {
     padding: 10px 38px;
     border-radius: 11px;
     border: none;
-    font-size: 17px;
+    font-size: 46px;
     font-weight: 700;
-    background: cadetblue;
-}
-p {
-    text-align: center;
-    margin-top: 12px;
-    color: #8d2121d6;
-    font-family: system-ui;
-    letter-spacing: 1px;
-    font-weight: 500;
+    background: #00f7ff;
 }

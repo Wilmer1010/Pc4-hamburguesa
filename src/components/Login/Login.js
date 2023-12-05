@@ -6,8 +6,6 @@ import './style.css';
 const Login = ({ isAuthenticated, loginSuccess, loginFailure }) => {
 
   const handleLogin = () => {
-    alert("Estoy logeando");
-    //GOLPEAR API
     const apiResponse = { status: 200 };
 
     if (apiResponse.status === 200) {
@@ -19,9 +17,8 @@ const Login = ({ isAuthenticated, loginSuccess, loginFailure }) => {
   
     return (
       <div>
-        <h1>Login</h1>
-        <button onClick={handleLogin}>Iniciar sesión</button>
-        <p>{isAuthenticated ? '¡Inicio de sesión exitoso!' : 'Inicio de sesión fallido'}</p>
+        <h1>Hamburguesa</h1>
+        <button onClick={handleLogin} className='ingresar'>ingresar</button>
       </div>
     );
 };

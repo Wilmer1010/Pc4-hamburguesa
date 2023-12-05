@@ -1,0 +1,28 @@
+{
+    "cocina": [
+      {
+        "nombre": "Pan superior",
+        "img": "https://previews.123rf.com/images/anatolir/anatolir2007/anatolir200702198/152186937-icono-de-pan-superior-de-hamburguesa-estilo-de-dibujos-animados.jpg"
+      },
+      {
+        "nombre": "Pan inferior",
+        "img": "https://c8.alamy.com/compes/2gmnd0m/fondo-de-pan-de-hamburguesa-aislado-sobre-fondo-blanco-2gmnd0m.jpg"
+      },
+      {
+        "nombre": "Mortadella",
+        "img": "https://pendlehillmeatmarket.com.au/wp-content/uploads/2020/08/SHAVED-MORTADELLA.jpg"
+      },
+      {
+        "nombre": "Lechuga",
+        "img": "https://chedrauimx.vtexassets.com/arquivos/ids/22810912-800-auto?v=638367230308570000&width=800&height=auto&aspect=true"
+      },
+      {
+        "nombre": "Tomate",
+        "img": "https://img.freepik.com/foto-gratis/vista-superior-rodajas-tomate-rojo-brillante-jugoso-aislado-espacio-blanco_280340-131.jpg?size=626&ext=jpg"
+      },
+      {
+        "nombre": "Salsa secreta",
+        "img": "https://m.media-amazon.com/images/I/61edvZYfiqL.jpg"
+      }
+    ]
+  }
